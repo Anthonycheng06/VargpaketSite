@@ -1,0 +1,91 @@
+							/*image en fond*/
+body{
+	background-image:url(pattern.png);
+	margin: 0;
+	background-size:10%;
+}
+
+header  {
+    height: 50px;
+    background-color : 464A4E;
+}
+							
+nav.menu-nav  a{
+    color: C5CCD3;
+	float:left;
+    margin-right: 15px;
+	margin-left: 15px;
+	text-align:center;
+	text-decoration:none;
+	background-color:464A4E;
+}
+.txt{
+	
+    font-size: 25px;
+	margin-top:10px;
+}
+.txt_secondary{
+	margin-top :15px;
+	font-size : 20px;
+}
+.img {
+	margin-top:5px;
+}
+nav.menu-nav a:hover{
+	color: white;
+	transition: 0.4s all;
+}
+
+div.box{
+	margin: 50px;
+	background-color: white;
+	border: 2px solid;
+	border-radius: 30px;
+}
+div .leftimage{
+	margin :30px;
+}
+.centrer{
+	padding-top:20px;
+}
+div.rightbox{
+	float:left;
+	margin: 50px;
+	background-color: white;
+	border: 3px solid;
+	border-radius: 30px;
+}
+div.box:hover{
+	background-color: DEDEDE;
+	transition: 1s;
+}
+									/*texte des boites*/
+h1{
+	text-align: center;
+	font-size:80px;
+}
+h1 img.center
+
+h2{
+	margin-left:2px;
+	text-align: center;
+}
+h3{
+	background-image: url(Untitled.png);
+	background-size : 100%;
+	text-align: center;
+	color : black;
+	width : 100%;
+	font-size: 100%;
+	margin:0;
+}
+
+p.p1{
+	margin-left:30px;
+	margin-top:30px;
+	margin-bottom:60px;
+	font-size:20px;
+}
+p.p2{
+	width:20%;
+}
