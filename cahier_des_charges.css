@@ -9,8 +9,8 @@ header  {
     height: 50px;
     background-color : 464A4E;
 }
-							
 nav.menu-nav  a{
+	display:inline;
     color: C5CCD3;
 	float:left;
     margin-right: 15px;
@@ -20,7 +20,6 @@ nav.menu-nav  a{
 	background-color:464A4E;
 }
 .txt{
-	
     font-size: 25px;
 	margin-top:10px;
 }
@@ -28,9 +27,26 @@ nav.menu-nav  a{
 	margin-top :15px;
 	font-size : 20px;
 }
-.img {
+.img img{
 	margin-top:5px;
+	height :40px;
+	width : 40px;
 }
+
+.member {
+	font-size: 30px;
+}
+
+.SubTitle {
+	padding-left: 15px;
+}
+
+.img_select img {
+	margin-top:5px;
+	height :40px;
+	width : 40px;
+}
+
 nav.menu-nav a:hover{
 	color: white;
 	transition: 0.4s all;
@@ -59,7 +75,75 @@ div.box:hover{
 	background-color: DEDEDE;
 	transition: 1s;
 }
-									/*texte des boites*/
+#presentation{
+	margin-top : 10px;
+	margin-right : 10px;
+	margin-left : 280px;
+	margin-bottom : 10px;
+	height : auto;
+	border: 2px solid black;
+	background-color : white;
+}
+#presentation2{
+	margin-top : 3%;
+	margin-right : 5%;
+	margin-left : 5%;
+	width : auto;
+	height : auto;
+	margin-bottom : 3%;
+	border: 2px solid black;
+	background-color : white;
+}
+#presentation2 p{
+	padding-left:50px;
+	font-size:20px;
+}
+#presentation2 h2{
+	padding-left:50px;
+}
+#presentation2 p a{
+	text-decoration:none;
+}
+#presentation2 img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height : auto;
+}
+#presentation p{
+	padding-left : 50px;
+	font-size : 20px;
+}
+#presentation img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+#navigation {
+	width: 254px;
+	position : fixed;
+	list-style: none;
+	margin: 10px;
+	padding: 4px;
+	background : gray;
+}
+
+#navigation li a {
+	display: block;
+	background: gray ;
+	color: #fff ;
+	font: 1em ;
+	line-height: 1em ;
+    text-align: left ;
+    text-decoration: none ;
+    padding: 4px 0 ;
+}
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+    background: #3E3B3B ;
+    text-decoration: underline ;
+}
 h1{
 	text-align: center;
 	font-size:80px;
@@ -79,7 +163,28 @@ h3{
 	font-size: 100%;
 	margin:0;
 }
-
+.center {
+	text-align: center;
+	font-size : 20px;
+}
+div.Titre {
+	padding-top: 40px;
+	text-align : center;
+	font-size : 40px;
+}
+div.Titre2 {
+	margin-top : 30px;
+	margin-bottom : 60px;
+	padding-top: 50px;
+	border-top : 3px dashed black;
+	text-align : center;
+	font-size : 40px;
+}
+table {
+	border-collapse: collapse;
+	align : center;
+	border : 2px solid;
+}
 p.p1{
 	margin-left:30px;
 	margin-top:30px;

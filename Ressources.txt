@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="cahier_des_charges.css">
+		<link rel="icon" type="image/png" href="LogoKS_white.png">
+		<title>présentation du projet</title>
+	</head>
+	<body>
+							<!-- haut de page -->
+		<header>
+								<!-- boutons vers les autres pages du site -->
+			<nav class="menu-nav">
+						<a href="Vargpaket.html" class ="img">
+							<img src = "Logo.png">
+						</a>
+						<a href="index.html" class ="txt">
+							Kingdom Siege
+						</a>
+						<a href="Description.html" class = "txt_secondary">
+							<strong>
+							Présentation du projet
+							</strong>
+						</a>
+						<a href="cahier_des_charges.html" class = "txt_secondary">
+							Cahier des charges
+						</a>
+			</nav>
+		</header>
+								<!-- contenue -->
+		<div id="content">
+	
+			
+	
+		</div>
+
+	</body>
+</html>
