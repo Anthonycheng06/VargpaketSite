@@ -1,0 +1,29 @@
+body{
+	background-image:url(forest-digital-art-wallpaper-1920×1080.jpg);
+	background-size: 100%;
+	background-repeat : no-repeat;
+}
+#membre{ 
+	background-color:white;
+	border-radius : 8px;
+	display: block;
+}
+#membreg {
+	float : right;
+	width : 30%;
+}
+#membreg #membre{
+	text-align: right;
+}
+#membred {
+	float : left;
+	width : 30%;
+}
+#membred #membre{
+	text-align: left;
+}
+.centre {
+	display: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}

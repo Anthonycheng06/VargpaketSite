@@ -8,6 +8,7 @@ body{
 header  {
     height: 50px;
     background-color : 464A4E;
+	min-width:500px;
 }
 nav.menu-nav  a{
 	display:inline;
@@ -80,6 +81,7 @@ div.box:hover{
 	margin-right : 10px;
 	margin-left : 280px;
 	margin-bottom : 10px;
+	min-width : 210px;
 	height : auto;
 	border: 2px solid black;
 	background-color : white;
@@ -193,4 +195,18 @@ p.p1{
 }
 p.p2{
 	width:20%;
+}
+#menu-vertical, #menu-vertical ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  width: 180px; /* seule ligne rajoutée */
+}
+#menu-vertical ul {
+  position: absolute;
+  left:-999em;
+}
+#menu-vertical li:hover ul {
+  top: 0;
+  left: 180px;
 }
