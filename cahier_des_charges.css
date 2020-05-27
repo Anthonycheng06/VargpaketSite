@@ -4,6 +4,9 @@ body{
 	margin: 0;
 	background-size:10%;
 }
+ul li {
+	text-decoration : none;
+}
 
 header  {
     height: 50px;
@@ -11,27 +14,27 @@ header  {
 	min-width:500px;
 }
 nav.menu-nav  a{
-	display:inline;
     color: C5CCD3;
-	float:left;
-    margin-right: 15px;
-	margin-left: 15px;
 	text-align:center;
 	text-decoration:none;
 	background-color:464A4E;
 }
+
 .txt{
     font-size: 25px;
-	margin-top:10px;
+	padding-top:10px;
 }
 .txt_secondary{
 	margin-top :15px;
 	font-size : 20px;
+	padding-right: 10px;
 }
 .img img{
 	margin-top:5px;
 	height :40px;
 	width : 40px;
+	float : right;
+	margin-right:15px;
 }
 
 .member {
@@ -42,11 +45,6 @@ nav.menu-nav  a{
 	padding-left: 15px;
 }
 
-.img_select img {
-	margin-top:5px;
-	height :40px;
-	width : 40px;
-}
 
 nav.menu-nav a:hover{
 	color: white;
@@ -144,7 +142,7 @@ div.box:hover{
 }
 #navigation li a:hover, #navigation li a:focus, #navigation li a:active {
     background: #3E3B3B ;
-    text-decoration: underline ;
+    text-decoration: none ;
 }
 h1{
 	text-align: center;
@@ -200,7 +198,16 @@ p.p2{
   padding:0;
   margin:0;
   list-style:none;
-  width: 180px; /* seule ligne rajoutÃ©e */
+  width: 180px; /* seule ligne rajoute */
+}
+.menu-nav ul{
+  display:inline;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: C5CCD3;
+  text-align:center;
+  text-decoration:none;
+  background-color:464A4E;
 }
 #menu-vertical ul {
   position: absolute;
@@ -208,5 +215,46 @@ p.p2{
 }
 #menu-vertical li:hover ul {
   top: 0;
-  left: 180px;
+  left:0
+}
+li {
+list-style:none !important;
+color: C5CCD3;
+margin-left : 15px;
+font-size:25px;
+text-decoration:none;
+margin-right:40%;
+}
+ 
+nav ul {
+background-color:#464A4E;
+padding:0;
+margin:0;
+}
+ 
+nav ul li {
+list-style: none;
+line-height:44px;
+float:left;
+background-color:#464A4E;
+}
+ 
+nav ul li a {
+color:#FFF;
+padding:10px;
+font-size:10px;
+text-decoration:none;
+}
+ 
+li a:hover {
+color: white;
+}
+nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+ 
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+z-index:99999;
+display:list-item !important;
+position:absolute;
+margin-top:5px;
+margin-left:-10px;
 }
